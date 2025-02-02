@@ -14,4 +14,9 @@ rm ~/miniconda3/miniconda.sh                            &&\
 git clone https://github.com/dbarnett/python-helloworld.git 
 
 CMD ["tail", "-f", "/dev/null"]
-#CMD ["conda", "-V"]
+
+
+# Just checking to see if it's there. 
+#CMD ["ls"]
+#CMD ["ls", "/root/miniconda3/bin"] 
+#CMD ["/root/miniconda3/bin/conda", "-V"]
